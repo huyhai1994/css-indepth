@@ -6,13 +6,24 @@
 
 
 h1 {
-  font-family: serif;
+  color: #2f4f4f;
+  margin-bottom: 10px; /*reduces the margins*/
 }
 
-#page-title {
-  font-family: sans-serif;
+#main-nav {
+  margin-top: 10px; /*reduces the margins*/
+  list-style: none; /*removes user-agent list styles*/
+  padding-left: 0; /*removes user-agent list styles*/
 }
 
-.title {
-  font-family: monospace;
+#main-nav li {
+  display: inline-block; /*Makes list items appear side by side rather than stacked*/
+}
+
+#main-nav a {
+  color: white;
+  background-color: #13a4a4;
+  padding: 5px;
+  border-radius: 2px;
+  text-decoration: none;
 }
