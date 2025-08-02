@@ -1,0 +1,18 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+h1 {
+  font-family: serif;
+}
+
+#page-title {
+  font-family: sans-serif;
+}
+
+.title {
+  font-family: monospace;
+}
