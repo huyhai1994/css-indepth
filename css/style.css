@@ -27,3 +27,8 @@ h1 {
   border-radius: 2px;
   text-decoration: none;
 }
+
+#main-nav .featured {
+  background-color: orange;
+}
+
