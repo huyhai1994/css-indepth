@@ -10,6 +10,27 @@ h1 {
   margin-bottom: 10px; /*reduces the margins*/
 }
 
+a:link {
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+  padding: 2px;
+}
+
+a:visited {
+  background-color: purple;
+}
+
+a:hover {
+  background-color: transparent;
+  color: blue;
+  text-decoration: underline;
+}
+
+a:active {
+  color: red;
+}
+
 .nav {
   margin-top: 10px; /*reduces the margins*/
   list-style: none; /*removes user-agent list styles*/
