@@ -29,5 +29,9 @@ function extractContents(node, textNodes = []) {
   return textNodes;
 }
 
-const allText = extractContents(document.body);
-console.info(allText.join(''))
+
+const allText = extractContents(document.body)
+const text = allText.join('')
+const removedLineSpaceText = text.replace(/\n/g, '');
+console.info(removedLineSpaceText)
+
