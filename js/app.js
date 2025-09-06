@@ -29,9 +29,12 @@ function extractContents(node, textNodes = []) {
   return textNodes;
 }
 
-
 const allText = extractContents(document.body)
 const text = allText.join('')
 const removedLineSpaceText = text.replace(/\n/g, '');
 console.info(removedLineSpaceText)
+
+let link = document.body.getElementsByTagName("a");
+
+
 
