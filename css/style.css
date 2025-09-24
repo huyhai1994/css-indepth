@@ -56,3 +56,16 @@ a.featured {
   background-color: orange;
 }
 
+.footer {
+  color: #666;
+  background-color: #ccc;
+  padding: 15px 0;
+  text-align: center;
+  font-size: 14px;
+}
+
+.footer a {
+  color: inherit;
+  background-color: transparent;
+  text-decoration: underline;
+}
