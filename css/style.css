@@ -65,7 +65,7 @@ a.featured {
 }
 
 .footer a {
-  color: inherit;
-  background-color: initial;
+  color: unset;
+  background-color: unset;
   text-decoration: underline;
 }
