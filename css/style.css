@@ -67,5 +67,19 @@ a.featured {
 .footer a {
   color: unset;
   background-color: unset;
-  text-decoration: underline;
+  text-decoration: revert;
+}
+
+h1{
+  font-weight: bold;
+}
+
+.title{
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: normal;
+  font-size: 32px;
+  font-family: Helvetica, Arial, sans-serif;
 }
