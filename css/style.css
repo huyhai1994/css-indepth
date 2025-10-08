@@ -6,6 +6,7 @@
 
 body {
   font-family: sans-serif;
+  font-size: 16px;
 }
 
 h1 {
@@ -135,4 +136,10 @@ h1 {
 
 .box-large {
   font-size: 18px;
+}
+
+.slogan {
+  font-size: 1.2em;
+  padding: 1.2em;
+  background-color: #ccc;
 }
