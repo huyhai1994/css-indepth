@@ -14,6 +14,10 @@ h1 {
   margin-bottom: 10px; /*reduces the margins*/
 }
 
+ul {
+  font-size: 0.8em;
+}
+
 a:link {
   background-color: blue;
   color: white;
